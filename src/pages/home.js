@@ -4,6 +4,7 @@ import SliderMovies from '../components/SliderMovies';
 import { URL_API, API } from "../utils/constants";
 import { Row, Col } from 'antd';
 import MovieList from '../components/MovieList';
+import Footer from '../components/Footer';
 
 
 export default function Home (){  
@@ -30,6 +31,7 @@ export default function Home (){
           <MovieList title="Películas mejor valoradas" movies={topRatedMovies} />
         </Col>
       </Row>
+      <Footer />
     </> 
     );
 };
