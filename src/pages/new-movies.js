@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import { URL_API, API } from '../utils/constants';
 import Footer from '../components/Footer';
 import Loading from '../components/Loading';
+import MovieCatalog from '../components/MovieCatalog';
 
 export default function NewMovie(){
   const [movieList, setMovieList] = useState([]);
@@ -26,7 +27,7 @@ export default function NewMovie(){
       
       {movieList.results ? (
         <Col span={24}>        
-          <h2>Todas las peliculas</h2>        
+          <MovieCatalog movies={movieList}/>        
         </Col>
       ) : (
         <Col span={24}>        
