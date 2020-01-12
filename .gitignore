@@ -11,6 +11,7 @@
 # production
 /build
 ./src/utils/constants.js
+/utils
 
 # misc
 .DS_Store
