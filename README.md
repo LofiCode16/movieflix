@@ -19,5 +19,5 @@ Para lograr esto, se ha utilizado la API de TheMovieDb, obteniendo desde ahi los
 
 1. Clona este repositorio
 2. Instala las dependencias ejecutando `yarn install`
-3. Crea el archivo .env con las credenciales solicitadas en `utils/constants.js`
+3. Crea el archivo .env con las credenciales solicitadas en `src/utils/constants.js`
 4. Levanta el servidor ejecutanto `yarn start`
