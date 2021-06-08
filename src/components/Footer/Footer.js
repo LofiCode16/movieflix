@@ -8,7 +8,7 @@ export default function Footer(){
 
     return(
         <Footer className="footer">
-            <p>Diego Perez</p>
+            <p>Movieflix</p>
         </Footer>
     )
 }
